@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+#gameCanvas {
+  display: block;
+  margin: auto;
+  background: linear-gradient(to bottom, #0d0d0d, #222);
+  border: 2px solid white;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
